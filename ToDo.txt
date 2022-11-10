@@ -1,5 +1,7 @@
 #== Next steps ===================================================================================#
 1. add in semelparity as a toggle; track population dynamics
+2. once semelparity is working, toggle in demographic stochasticity
+3. tweak extinction vortex
 
 
 Log:
