@@ -1,0 +1,307 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"med",
+				"median"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"termin",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"terminus",
+				"Preferences: Terminus Key Bindings"
+			],
+			[
+				"Send",
+				"SendCode: Choose Program"
+			],
+			[
+				"nus",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"install Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"Terminus",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"Set Syntax: R ",
+				"Set Syntax: R"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ter",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"Ter",
+				"Terminus: Open Default Shell in Panel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/genetic_rescue/salmon_sublime.sublime-project",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/Inbreeding_estimation_pedigree.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/Selection.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/Rescue.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/ToDo.html",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/Replicates.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/Adults.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/maintext.html",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/ToDo.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/model.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/RunModel.R",
+		"/C/Users/fishf/AppData/Roaming/Sublime Text/Packages/Terminus/Default.sublime-keymap",
+		"/C/Users/fishf/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/fishf/Downloads/test.R",
+		"/C/Users/fishf/Downloads/Allison/alignment_stats.txt",
+		"/C/Users/fishf/Dropbox/planning/plan.txt",
+		"/C/Users/fishf/Downloads/pop.sizes.large.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/genetic_rescue/output/out_50_pedigree.txt",
+		"/C/Users/fishf/Downloads/tokens.txt",
+		"/C/Users/fishf/Dropbox/plan/workouts.txt",
+		"/C/Users/fishf/Dropbox/planning/home.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/Parameters.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/pops/analysis.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/Genotypes.R",
+		"/C/Users/fishf/Dropbox/classes/fnr_24150/group_assignments/Week_randomizer.R",
+		"/C/Users/fishf/Downloads/test.md",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/vortex/source/Larvae.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/vortex/source/Juveniles.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/vortex/source/RunModel.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/vortex/source/Parameters.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/vortex/source/FunctionSourcer.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/vortex/pops/analysis.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/vortex/todo.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/AdultMortality.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/Output.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/output/out_500_output.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/output/out_500_pops.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/output/out_2000_pops.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/template.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/todo.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/VCF_Filtering_Steps3.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/analyses/rmse_plot.R",
+		"/C/Users/fishf/Dropbox/home/finances/processing/update_finances.R",
+		"/C/Users/fishf/Dropbox/code/templates/template.R",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/FST.R",
+		"/C/Users/fishf/Dropbox/manuscripts/In_preparation/alaska_pink_salmon/questions.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/VCF_Filtering_Steps2.R",
+		"/C/Users/fishf/Dropbox/manuscripts/steelhead_rna-seq/analyses/hood_river/gene_identification/blastx/filter_blastx_output/step1_select_best_blast_hit/select_best_hit.R",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/gene_ids.txt",
+		"/C/Users/fishf/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/Reproduction.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/steps.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/questions.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/plan.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/papers.txt",
+		"/C/Users/fishf/Dropbox/classes/fnr_24150/checklist.txt",
+		"/C/Users/fishf/Downloads/AndyLee_BIOL_IDP_2022.txt",
+		"/C/Users/fishf/Downloads/AndyLee_BIOL_IDP_2022 (1).txt",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/For_Will/FST.R",
+		"/C/Users/fishf/Downloads/alignment_stats.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/analyses/demography_plot.R",
+		"/C/Users/fishf/Dropbox/code/FST/heirfstat_weir_cockerham_fst/Fst2.R",
+		"/C/Users/fishf/Dropbox/code/FST/weir_cockerham_fst_baseR_xiaoshen/pop1.txt",
+		"/C/Users/fishf/Dropbox/code/FST/weir_cockerham_fst_baseR_xiaoshen/pairFST.R",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/VCF_Filtering_Steps.R",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/VCF_Missing2.R",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/FST.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/VCF_Missing.R",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/final_snps - Copy.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/analyses/vcf_stats/heterozygosity_maf_from_vcf_FAST.R",
+		"/C/Users/fishf/Dropbox/manuscripts/steelhead_rna-seq/analyses/hood_river/SNPs/fst/Fst2.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/analyses/vcf_stats/shared_snps(old)/heterozygosity_maf_from_vcf.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/analyses/vcf_stats/shared_snps(old)/mafs.txt",
+		"/C/Users/fishf/Downloads/bashrc_cluster_mark",
+		"/C/Users/fishf/Dropbox/manuscripts/whelk_rna_seq/snps/04_rnaspades_annotated_degs.filt.biallelic.MMCN.MAF5.ldepth.mean.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/steelhead_rna-seq/analyses/hood_river/alignment/alignment_pipelines/Alignment Pipeline_Hood_Extra/file_renamer.R",
+		"/C/Users/fishf/Downloads/step2_align.sub",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/analyses/analyses4.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/JuvenileMortality.R",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/salmon/source/AdditiveVariation.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/Repro.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/Genotypes.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/analyses/analyses3.R",
+		"/C/Users/fishf/Dropbox/planning/today.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/Demography.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/DemographyFunctions_extra.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/Replicates.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/DemographyFunctions.R",
+		"/C/Users/fishf/Dropbox/manuscripts/under_review/yellow_perch_rad_seq/analyses/figure_4_biplots/biplots_PLD.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/ToDo.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/Mutation.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/analyses/analyses2.R",
+		"/C/Users/fishf/Dropbox/planning/FUTURE.txt",
+		"/C/Users/fishf/Downloads/sublime_text_liscence_key.txt",
+		"/C/Users/fishf/Dropbox/classes/fnr_24150/Group Assignments/Week_randomizer.R",
+		"/C/Users/fishf/Dropbox/classes/fnr_24150/classes/class_1/notes.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/blast1.sub",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/RunModel.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/Output.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/model.R",
+		"/C/Users/fishf/Dropbox/administration/biology_department/grad_student_meeting.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/ToDo.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/analyses/analyses.R",
+		"/C/Users/fishf/Downloads/template.R",
+		"/C/Users/fishf/Dropbox/classes/CourseDiscussionFNR_2022.txt",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/FunctionSourcer.R",
+		"/C/Users/fishf/Dropbox/manuscripts/yellow_perch_genomics/model/larva3.2/source/Parameters.R",
+		"/C/Users/fishf/Downloads/test.txt"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 239.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.first-panel":
+	{
+		"height": 271.0
+	},
+	"output.other-panel":
+	{
+		"height": 339.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

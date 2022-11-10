@@ -1,0 +1,74 @@
+#== Next steps ===================================================================================#
+1. add in semelparity as a toggle; track population dynamics
+
+
+Log:
+1. added minor stabilizing selection back in
+  - try k.adults = 100 next
+  - works but some fine tuning needed (prevents extinction)
+
+
+
+
+
+
+
+[x] change shape of fitness function for selection to parabola centered around 0
+
+[x] start and finish process of extinction vortex
+[x] need to maintain small populations for a while
+[x] measure fis and ne through time
+
+
+
+[x] clean up selection strength and fitness functions (is now a conditional variable)
+[] figure out life history variables to vary
+  [] vary them in both donor and source
+
+
+#== sublime text commands ======================================================================#
+steps:
+1. open project
+2. open files with double click to get new tab
+3. ctrl + 1; "C:/Program Files/R/R-4.2.1/bin/R.exe"
+4. ctrl + 2; wsl
+
+
+edited key map so that:
+ctrl + 1 opens 1 terminal
+ctrl + 2 oopens a second terminal
+
+alt+# to switch tabs
+
+
+
+
+#== at some point ================================================================================#
+[] check that varying environmental contribution slows down evolution
+[] check (again) that reproduction is working as intended (check a parent and offspring)
+
+
+# completed ===========================#
+
+[x] add neutral loci
+[x] add environmental contribution to phenotype
+
+[x] automate process for both ne and local adapation creaion
+[x] finish process of creating divergent process
+[x] 50 year burnin
+[x] 100 year selection
+[x] 100 year to NE
+[x] 200 years, 100 years for evolution followed by 100 years for NE
+[x] save output of creating populations along NE and local adapation gradient
+[x] set Nes of source populations
+[x] set local adaptation of source populations 
+[x] save pops for later simulations
+[x] automate process for ne creation of 3 pops
+[x] automate process for ne creation of 3 local adaptations
+
+
+
+
+
+
+
