@@ -8,8 +8,9 @@ Reproduction <- function(n, pops, parameters) {
   egg.max         <- parameters[["egg.max"]]
   egg.multiplier  <- parameters[["egg.multiplier"]]
   egg.addition    <- parameters[["egg.addition"]]  
-  dom             <- parameters[["dominance.effect"]]  
-  
+  dom             <- parameters[["dominance.effect"]] 
+
+
   #inbreeding.fitness.cost <- parameters[["inbreeding.fitness.cost"]]
   #if(n == 1){inbreed_F = 0} else {inbreed_F <- output[nrow(output), 14]} # take most recent estimate of F
   
@@ -139,7 +140,8 @@ Reproduction <- function(n, pops, parameters) {
   #POPS
   new.juveniles <- POPS
   colnames(new.juveniles) <- colnames(adults)
-  pops <- rbind(adults, juveniles, new.juveniles)  # no adults; die after spawning
+  pops <- rbind(adults, juveniles, new.juveniles) # add adults; do not die after spawning
+
   return(pops)
 }
 

@@ -27,6 +27,8 @@ n.years              <- ne.change.stop   # total number of years in the model
 # life history parameters 
 maximum.juvenile.age   <- 2     # maximim age for a juvenile lamprey; used in creating juveniles (Juveniles.R) 
 maximum.adult.age      <- 4     # maximum age for adult     
+semelparity            <- 1     # 1 = semelparous; 2 (or anything but 1) = iteroparous ; if on, adults cannot be donated via rescue
+breed.next.year        <- 0.25  # when semelparity is on, what percentage of new "adults" should remain juveniles for 1 extra year to create 4 year old coho
 
 # Growth parameters
 ##y   <- L * (1-e^(-K * (t-tzero)))
@@ -67,7 +69,7 @@ optima                <- 0   # phenotpyic optimum in new environment; here model
 
 # rescue parameters
 rescue.years  <- 0#c(80:90)   # set to 0 if want no rescue, years to perform rescue
-rescue.number <- 20  # number of individuals to move  
+rescue.number <- 20   # number of individuals to move  
 rescue.age    <- 3    # stage of individuals to move 
 
 # Inbreeding parameters
@@ -87,6 +89,10 @@ parameters[["k.juveniles"]]           <- k.juveniles
 parameters[["k.juvenile.multiplier"]] <- k.juvenile.multiplier
 parameters[["maximum.juvenile.age"]]  <- maximum.juvenile.age 
 parameters[["maximum.adult.age"]]     <- maximum.adult.age
+parameters[["semelparity"]]           <- semelparity  
+parameters[["breed.next.year"]]       <- breed.next.year
+
+
 parameters[["juvenile.survival.var"]] <- juvenile.survival.var 
 parameters[["adult.survival.var"]]    <- adult.survival.var 
 parameters[["egg.max"]]               <- egg.max

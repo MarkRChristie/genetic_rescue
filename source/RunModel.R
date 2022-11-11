@@ -21,7 +21,7 @@
   #DensityDependence_plots(parameters)
   #Parameter_summary(parameters)
   rm(list = ls())
-  setwd("C:/Users/fishf/Dropbox/manuscripts/rescue/salmon")
+  setwd("C:/Users/fishf/Dropbox/manuscripts/rescue/genetic_rescue")
   library("hierfstat")
   library("inbreedR")
   library("purgeR")
@@ -52,9 +52,13 @@
     pops[, 3] <- pops[, 3] + 1 # increment ages by 1
     # if(length(pops) <= one.individual) {break}
 
-    # change stage based on age
+    # change stage based on age (for salmon allow for some juveniles to mature later(see breed.next.year))
     ads <- which(pops[, 3] > parameters[["maximum.juvenile.age"]])  # default has been 2
-    pops[ads, 4] <- 2
+    if(parameters[["semelparity"]] == 1) {
+      nthrees <- length(ads)*(1-parameters[["breed.next.year"]])  # allow x% to mature, remainder saved for next year
+      pops[sample(ads, nthrees, replace=FALSE) , 4] <- 2
+    } else {pops[ads, 4] <- 2}
+
     
     pops     <- AdultMortality(pops, parameters)
     t.adults <- pops[pops$stage == 2, ]
@@ -94,7 +98,7 @@
     #pops <- AdditiveVariation(pops, parameters)  # need to check that this works as expected
     
     if(any(n==parameters[["rescue.years"]])) {
-      pops <- Rescue(pops, parameters)
+      pops <- Rescue(pops, parameters)          
     }
     
     # calculates output
@@ -106,6 +110,7 @@
       write.table(output, paste("../output/out", k.adults.final, optima, "output.txt", sep="_"), col.names = TRUE, sep="\t", append = FALSE)
     }
       
+    pops <- Semelparity(pops, parameters) # removes all adults if turned on!
     
   }
 
