@@ -21,6 +21,7 @@
   #DensityDependence_plots(parameters)
   #Parameter_summary(parameters)
   rm(list = ls())
+  #setwd("/mnt/c/Users/fishf/Dropbox/manuscripts/rescue/genetic_rescue/source")
   setwd("C:/Users/fishf/Dropbox/manuscripts/rescue/genetic_rescue")
   library("hierfstat")
   library("inbreedR")

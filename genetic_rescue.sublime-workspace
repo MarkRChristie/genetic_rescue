@@ -9,6 +9,277 @@
 			]
 		]
 	},
+	"buffers":
+	[
+		{
+			"file": "ToDo.txt",
+			"settings":
+			{
+				"buffer_size": 2069,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/RunModel.R",
+			"settings":
+			{
+				"buffer_size": 7792,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					35,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAfHgAAIyAgUnVuTW9kZWwgPC0gZnVuY3Rpb24obi5nZW5lcmF0aW9ucywgaSkgewogIAogICMgcG9wcyBjb2x1bW5zIGFyZSBhcyBmb2xsb3dzOgogICMgMSA9IElEIChicm9vZHllYXIgKyB1bmlxdWUgbnVtYmVyOyBlLmcuLCAwMDBfMSAoaW5kaXZpZHVhbCAxIGJvcm4gaW4gdmVyeSBmaXJzdCB5ZWFyKSwgMDAwXzk4NyAoaW5kaXZpZHVhbCA5ODcgYm9ybiBpbiBmaXJzdCB5ZWFyKSwgMTAxXzE5IChpbmRpdmRpdWFsIDE5IGJvcm4gaW4geWVhciAxMDEpKQogICMgMiA9IHNleCAoMT1mZW1hbGUsIDI9bWFsZSkKICAjIDMgPSBhZ2UKICAjIDQgPSBzdGFnZSAoZHJpdmVuIGJ5IGdyb3d0aCByYXRlIHBhcmFtZXRlciBhbmQvb3IgYWdlKQogICMgNSA9IFdIIChoYXRjaGVyeSBvciB3aWxkIG9yaWdpbiwgMT13aWxkLCAyID0gaGF0Y2hlcnkpCiAgIyA2ID0gY2FwdGl2ZSBhbmNlc3RyeSAoYW1vdW50IG9mIGNhcHRpdmUgYW5jZXN0cnk7IGF2ZXJhZ2Ugb2YgcGFyZW50IGFuY2VzdHJ5IHdoZXJlIDE9aGF0Y2hlcnkgYW5kIDAgPXdpbGQgOyBtYXkgd2FudCBiZXR0ZXIgZXF1YXRpb24pCiAgIyA3ID0gZ3Jvd3RoIHJhdGUgcGFyYW1ldGVyCiAgIyA4ID0gZG9taW5hbmNlIGRldmlhdGlvbgogIAogICMgNy0xMCA9IHRyYWl0IHNsb3RzOyBhbGwgdHJhaXQgdmFsdWVzIGFyZSBkcml2ZW4gYnkgZ2Vub21lIChlbnZpcm9ubWVudCBhY3RzIGxhdGVyKQogICMgNyA9IGdyb3d0aCByYXRlCiAgIyA4ID0gdGVtcGVyYXR1cmUgdG9sZXJhbmNlIChwaGVub3R5cGUgYmFzZWQgb24gZ2Vub3R5cGUpCgogICMgOSsgPSBnZW5ldGljIGxvY2kgCgogICMgbW9kZWwgc2V0IHVwCiAgI1RyYW5zZm9ybWF0aW9uX3Bsb3RzKHBhcmFtZXRlcnMpCiAgI0RlbnNpdHlEZXBlbmRlbmNlX3Bsb3RzKHBhcmFtZXRlcnMpCiAgI1BhcmFtZXRlcl9zdW1tYXJ5KHBhcmFtZXRlcnMpCiAgcm0obGlzdCA9IGxzKCkpCiAgc2V0d2QoIkM6L1VzZXJzL2Zpc2hmL0Ryb3Bib3gvbWFudXNjcmlwdHMvcmVzY3VlL2dlbmV0aWNfcmVzY3VlIikKICBsaWJyYXJ5KCJoaWVyZnN0YXQiKQogIGxpYnJhcnkoImluYnJlZWRSIikKICBsaWJyYXJ5KCJwdXJnZVIiKQogIGxpYnJhcnkoImRwbHlyIikKICBsaWJyYXJ5KCJiZWVwciIpCgogCiAgYmFzZS5kaXJlY3RvcnkgPC0gZ2V0d2QoKSAKICBvdXRkaXIgICAgICAgICA8LSBwYXN0ZShiYXNlLmRpcmVjdG9yeSwiL291dHB1dC8iLHNlcD0iIikgICMgZGlyZWN0b3J5IHRvIHNhdmUgbW9kZWwgb3V0cHV0ICAKICBzb3VyY2UocGFzdGUoYmFzZS5kaXJlY3RvcnksICIvc291cmNlL0Z1bmN0aW9uU291cmNlci5SIiwgc2VwID0gJycpKSAjbG9hZHMgcGFja2FnZXMsIHNvdXJjZXMgZnVuY3Rpb25zLCBhbmQgc2V0cyBzb3VyY2UgZGlyZWN0b3J5CiAgZGF0YS5mcmFtZSh1bmxpc3QocGFyYW1ldGVycykpICMgc2hvdyBhbGwgcGFyYW1ldGVycwogIHBhcmFtZXRlcnNbWyJrLmFkdWx0cy5maW5hbCJdXSA8LSAxMDAgICMgZmluYWwgcG9wdWxhdGlvbiBzaXplCiAgcGFyYW1ldGVyc1tbIm9wdGltYSJdXSAgICAgICAgIDwtIDAgICMgcGhlbm90eXBpYyBvcHRpbXVtIGZvciBsb2NhbCBhZGFwdGF0aW9uCiAgZG9ub3IucG9wIDwtIHJlYWQudGFibGUoIi4uL3BvcHMvb3V0XzMwMF8wX3BvcHMudHh0IiwgaGVhZGVyPVRSVUUsIHNlcD0iXHQiLCBuYS5zdHJpbmdzPSI/IiwgZGVjPSIuIiwgc3RyaXAud2hpdGU9VFJVRSkKICAjaW5pdGlhbGl6ZSBwb3B1bGF0aW9uczogY3JlYXRlIGp1dmVuaWxlcywgYWR1bHRzCiAganV2ZW5pbGVzPC0gSnV2ZW5pbGVzKHBhcmFtZXRlcnMpCiAgYWR1bHRzICAgPC0gQWR1bHRzKHBhcmFtZXRlcnMpIAogIHBvcHMgICAgIDwtIHJiaW5kKGFkdWx0cywganV2ZW5pbGVzKQogIHBvcHMgICAgIDwtIEdlbm90eXBlcyhwb3BzLCBwYXJhbWV0ZXJzKQoKICBrLmFkdWx0cy5maW5hbCA8LSBwYXJhbWV0ZXJzW1siay5hZHVsdHMuZmluYWwiXV0KICBvcHRpbWEgICAgICAgICA8LSBwYXJhbWV0ZXJzW1sib3B0aW1hIl1dIAogIAogIHVubGluaygiLi4vb3V0cHV0L3BlZGlncmVlLnR4dCIpICAjIG1ha2Ugc3VyZSB0aGF0IHBlZGlncmVlIGZpbGUgaXMgZGVsZXRlZCEKCiAgZm9yKG4gaW4gMTpwYXJhbWV0ZXJzW1sibi55ZWFycyJdXSl7CgogICAgcG9wc1ssIDNdIDwtIHBvcHNbLCAzXSArIDEgIyBpbmNyZW1lbnQgYWdlcyBieSAxCiAgICAjIGlmKGxlbmd0aChwb3BzKSA8PSBvbmUuaW5kaXZpZHVhbCkge2JyZWFrfQoKICAgICMgY2hhbmdlIHN0YWdlIGJhc2VkIG9uIGFnZSAoZm9yIHNhbG1vbiBhbGxvdyBmb3Igc29tZSBqdXZlbmlsZXMgdG8gbWF0dXJlIGxhdGVyKHNlZSBicmVlZC5uZXh0LnllYXIpKQogICAgYWRzIDwtIHdoaWNoKHBvcHNbLCAzXSA+IHBhcmFtZXRlcnNbWyJtYXhpbXVtLmp1dmVuaWxlLmFnZSJdXSkgICMgZGVmYXVsdCBoYXMgYmVlbiAyCiAgICBpZihwYXJhbWV0ZXJzW1sic2VtZWxwYXJpdHkiXV0gPT0gMSkgewogICAgICBudGhyZWVzIDwtIGxlbmd0aChhZHMpKigxLXBhcmFtZXRlcnNbWyJicmVlZC5uZXh0LnllYXIiXV0pICAjIGFsbG93IHglIHRvIG1hdHVyZSwgcmVtYWluZGVyIHNhdmVkIGZvciBuZXh0IHllYXIKICAgICAgcG9wc1tzYW1wbGUoYWRzLCBudGhyZWVzLCByZXBsYWNlPUZBTFNFKSAsIDRdIDwtIDIKICAgIH0gZWxzZSB7cG9wc1thZHMsIDRdIDwtIDJ9CgogICAgCiAgICBwb3BzICAgICA8LSBBZHVsdE1vcnRhbGl0eShwb3BzLCBwYXJhbWV0ZXJzKQogICAgdC5hZHVsdHMgPC0gcG9wc1twb3BzJHN0YWdlID09IDIsIF0KICAgIG4uYWR1bHQgIDwtIG5yb3codC5hZHVsdHMpICNyZXF1aXJlZCBmb3Igb3V0cHV0CiAgICBuLm1hbGUgICA8LSBsZW5ndGgod2hpY2godC5hZHVsdHMkc2V4ID09IDIpKSAKICAgIG4uZmVtYWxlIDwtIGxlbmd0aCh3aGljaCh0LmFkdWx0cyRzZXggPT0gMSkpIAoKICAgICMgd2lsZCByZXByb2R1Y3Rpb24KICAgICMgd3JpdGUgb3V0cHV0IHdoZW4gcG9wdWxhdGlvbiBmdW5jdGlvbmFsbHkgZXh0aW5jdCAoPCAzIG9mIDEgc2V4KTsgdGhlbiBicmVhawogICAgaWYobi5tYWxlIDwgMyB8IG4uZmVtYWxlIDwgMykgewogICAgICB3cml0ZS50YWJsZShwb3BzLCBwYXN0ZSgiLi4vb3V0cHV0L291dCIsIGsuYWR1bHRzLmZpbmFsLCBvcHRpbWEsICJwb3BzLnR4dCIsIHNlcD0iXyIpLCBjb2wubmFtZXMgPSBUUlVFLCBzZXA9Ilx0IiwgYXBwZW5kID0gRkFMU0UpCiAgICAgIHdyaXRlLnRhYmxlKG91dHB1dCwgcGFzdGUoIi4uL291dHB1dC9vdXQiLCBrLmFkdWx0cy5maW5hbCwgb3B0aW1hLCAib3V0cHV0LnR4dCIsIHNlcD0iXyIpLCBjb2wubmFtZXMgPSBUUlVFLCBzZXA9Ilx0IiwgYXBwZW5kID0gRkFMU0UpCiAgICAgIHByaW50KCJleHRpbmN0IikKICAgICAgYnJlYWsKICAgICAgfSAgICAgICAgICAgICAgICAgICAgICAjIGNvbnRyb2wgc3RydWN0dXJlIGZvciBzbWFsbCAjIGFkdWx0cwogICAgCiAgICBwb3BzIDwtIFJlcHJvZHVjdGlvbihuLCBwb3BzLCBwYXJhbWV0ZXJzKQoKICAgICMgaWYobGVuZ3RoKHBvcHMpIDw9IG9uZS5pbmRpdmlkdWFsKSB7YnJlYWt9ICAgIyBicmVhayBpZiBvbmx5IG9uZSBhZHVsdCAob3IgbGVzcyBsZWZ0KQogICAgcG9wcyA8LSBKdXZlbmlsZU1vcnRhbGl0eShwb3BzLCBwYXJhbWV0ZXJzKQogICAgCiAgICAjIFNFTEVDVElPTiAodXNlZCBpbiBnZW5ldGljIHJlc2N1ZSByZWNpcGllbnQgcG9wcyBvbmx5IHRvIHByZXZlbnQgZHJpZnQpIAogICAgaWYobiA+PSBzZWxlY3Rpb24uc3RhcnQueWVhciAmIG4gPD0gc2VsZWN0aW9uLmVuZC55ZWFyKSB7CiAgICAgIHBvcHMgPC0gU2VsZWN0aW9uKHBvcHMsIHBhcmFtZXRlcnMpCiAgICAgIH0KICAgIAogICAgCiAgICAjIFBPUCBTSVpFIENIQU5HSU5HCiAgICBpZihuID49IG5lLmNoYW5nZS5zdGFydCAmIG4gPD0gbmUuY2hhbmdlLnN0b3ApIHsKICAgICAgcGFyYW1ldGVyc1tbImsuYWR1bHRzIl1dIDwtIGsuYWR1bHRzLmZpbmFsCiAgICAgIGsuYWR1bHRzIDwtIHBhcmFtZXRlcnNbWyJrLmFkdWx0cyJdXQogICAgICBwYXJhbWV0ZXJzW1siay5qdXZlbmlsZXMiXV0gPC0gay5hZHVsdHMqay5qdXZlbmlsZS5tdWx0aXBsaWVyCiAgICAgIGsuanV2ZW5pbGVzIDwtIHBhcmFtZXRlcnNbWyJrLmp1dmVuaWxlcyJdXQogICAgICB9CiAgICAgIAogICAgIyBjaGVja3MgZm9yIGFkZGl0aXZlIHZhcmlhdGlvbiBhbmQgYWRkcyBuZXcgKHJlbW92ZWQgZm9yIG5vdzsgY29uc3RhbnRseSBmaWdodHMgYWdhaW5zdCBzdGFiaWxpemluZyBzZWxlY3Rpb24pCiAgICAjcG9wcyA8LSBBZGRpdGl2ZVZhcmlhdGlvbihwb3BzLCBwYXJhbWV0ZXJzKSAgIyBuZWVkIHRvIGNoZWNrIHRoYXQgdGhpcyB3b3JrcyBhcyBleHBlY3RlZAogICAgCiAgICBpZihhbnkobj09cGFyYW1ldGVyc1tbInJlc2N1ZS55ZWFycyJdXSkpIHsKICAgICAgcG9wcyA8LSBSZXNjdWUocG9wcywgcGFyYW1ldGVycykgICAgICAgICAgCiAgICB9CiAgICAKICAgICMgY2FsY3VsYXRlcyBvdXRwdXQKICAgIG91dHB1dCA8LSBPdXRwdXQocG9wcywgbiwgbi5hZHVsdCwgb3V0cHV0KSAKICAKICAgICMgd3JpdGUgb3V0cHV0IGFuZCBwb3BzIGZpbGVzCiAgICBpZihuID09IG4ueWVhcnMpIHsKICAgICAgd3JpdGUudGFibGUocG9wcywgcGFzdGUoIi4uL291dHB1dC9vdXQiLCBrLmFkdWx0cy5maW5hbCwgb3B0aW1hLCAicG9wcy50eHQiLCBzZXA9Il8iKSwgY29sLm5hbWVzID0gVFJVRSwgc2VwPSJcdCIsIGFwcGVuZCA9IEZBTFNFKQogICAgICB3cml0ZS50YWJsZShvdXRwdXQsIHBhc3RlKCIuLi9vdXRwdXQvb3V0Iiwgay5hZHVsdHMuZmluYWwsIG9wdGltYSwgIm91dHB1dC50eHQiLCBzZXA9Il8iKSwgY29sLm5hbWVzID0gVFJVRSwgc2VwPSJcdCIsIGFwcGVuZCA9IEZBTFNFKQogICAgfQogICAgICAKICAgIHBvcHMgPC0gU2VtZWxwYXJpdHkocG9wcywgcGFyYW1ldGVycykgIyByZW1vdmVzIGFsbCBhZHVsdHMgaWYgdHVybmVkIG9uIQogICAgCiAgfQoKICBwZGYoZmlsZSA9ICJyZWNpcGllbnRfd2l0aF9yZXNjdWUucGRmIiwgd2lkdGggPSA2LCBoZWlnaHQgPSA1KSAKICAjcGFyKG1mcm93PWMoMywxKSwgb21hID0gYygwLCAyLCAwLCAyKSkKICBwbG90KG91dHB1dFssIDFdLCBvdXRwdXRbLCAyXSwgcGNoID0gMjEsIGJnID0gImJsdWUiLCBjZXggPSAyLCBtYWluID0gImp1dmVuaWxlcyIsIHlsaW0gPSBjKDAsIG1heChvdXRwdXRbLCAyXSkgKyAyMCkpICMgcGxvdCBhZHVsdHMKICBwbG90KG91dHB1dFssIDFdLCBvdXRwdXRbLCA0XSwgcGNoID0gMjEsIGJnID0gImJsdWUiLCBjZXggPSAyLCBtYWluID0gImFkdWx0cyIsIHlsaW0gPSBjKDAsIG1heChvdXRwdXRbLCAzXSkgKyAyMDApKSAgICMgcGxvdCBhZHVsdHMKICBwbG90KG91dHB1dFssIDFdLCBvdXRwdXRbLCA1XSwgcGNoID0gMjEsIGJnID0gImJsdWUiLCBjZXggPSAyLCBtYWluID0gInRlbXBlcmF0dXJlIHRvbGVyYW5jZSIpICMgcGxvdCB0ZW1wIHRvbGVyYW5jZQogIHBsb3Qob3V0cHV0WywgMV0sIG91dHB1dFssIDZdLCBwY2ggPSAyMSwgYmcgPSAiYmx1ZSIsIGNleCA9IDIsIG1haW4gPSAiSG8iLCB5bGltID0gYygwLCBtYXgob3V0cHV0WywgNl0pICsgMC41KSkgIyBwbG90IGp1dmVuaWxlcwogIHBsb3Qob3V0cHV0WywgMV0sIG91dHB1dFssIDEzXSwgcGNoID0gMjEsIGJnID0gImJsdWUiLCBjZXggPSAyLCBtYWluID0gIkhvMiIsIHlsaW0gPSBjKDAsIG1heChvdXRwdXRbLCAxM10pICsgMC41KSkgIyBwbG90IGp1dmVuaWxlcwogIHBsb3Qob3V0cHV0WywgMV0sIG91dHB1dFssIDddLCBwY2ggPSAyMSwgYmcgPSAiYmx1ZSIsIGNleCA9IDIsIG1haW4gPSAiRmlzIiwgeWxpbSA9IGMobWluKG91dHB1dFssIDddKSAtIDAuNSwgbWF4KG91dHB1dFssIDddKSArIDAuNSkpICMgcGxvdCBqdXZlbmlsZXMKICBwbG90KG91dHB1dFssIDFdLCBvdXRwdXRbLCA4XSwgcGNoID0gMjEsIGJnID0gImJsdWUiLCBjZXggPSAyLCBtYWluID0gIk5lMSIsIHlsaW0gPSBjKDAsIG1heChvdXRwdXRbLCA4XSkgKyA1KSkgICAjIHBsb3QganV2ZW5pbGVzCiAgcGxvdChvdXRwdXRbLCAxXSwgb3V0cHV0WywgOV0sIHBjaCA9IDIxLCBiZyA9ICJibHVlIiwgY2V4ID0gMiwgbWFpbiA9ICJOZTEiLCB5bGltID0gYygwLCBtYXgob3V0cHV0WywgOV0pICsgNSkpICAgIyBwbG90IGp1dmVuaWxlcwogIHBsb3Qob3V0cHV0WywgMV0sIG91dHB1dFssIDEwXSwgcGNoID0gMjEsIGJnID0gImJsdWUiLCBjZXggPSAyLCBtYWluID0gIk5lMSIsIHlsaW0gPSBjKDAsIG1heChvdXRwdXRbLCAxMF0pICsgNSkpICMgcGxvdCBqdXZlbmlsZXMKICBwbG90KG91dHB1dFstYygxLDIsMyksIDFdLCBvdXRwdXRbLWMoMSwyLDMpLCAxMV0sIHBjaCA9IDIxLCBiZyA9ICJibHVlIiwgY2V4ID0gMiwgbWFpbiA9ICJOZTEiKSAgICAgICAgICAgICAgICAgICAjIHBsb3QganV2ZW5pbGVzCiAgcGxvdChvdXRwdXRbLCAxXSwgb3V0cHV0WywgMTJdLCBwY2ggPSAyMSwgYmcgPSAiYmx1ZSIsIGNleCA9IDIsIG1haW4gPSAiaW5icmVlZCIpICAKICBwbG90KG91dHB1dFssIDFdLCBvdXRwdXRbLCAxNF0sIHBjaCA9IDIxLCBiZyA9ICJibHVlIiwgY2V4ID0gMiwgbWFpbiA9ICJUcnVlIEYiKSMKICBwbG90KG91dHB1dFstYygxOjUwKSwgMTRdLCBvdXRwdXRbLWMoMTo1MCksIDNdLCBwY2ggPSAyMSwgYmcgPSAiZ3JlZW4iLCBjZXggPSAyLCBtYWluID0gIkYgZWZmZWN0cyIsIHhsYWI9IkYiLCB5bGFiPSJOIGFkdWx0cyIpICMgRiB2cyBuIGFkdWx0cwogIHBsb3Qob3V0cHV0WywgMV0sIG91dHB1dFssIDNdLCBwY2ggPSAyMSwgYmcgPSAiYmx1ZSIsIGNleCA9IDIsIG1haW4gPSAiYWR1bHRzIiwgeWxpbSA9IGMoMCw2MCkpICAgIyBwbG90IGFkdWx0cwoKICAjIGNyZWF0ZSBwbG90IG9mIGFnZXMgdGhyb3VnaCB0aW1lCiAgYWdldmFscyA8LSBvdXRwdXRbLCAxNV0KICBhZ2V2YWxzIDwtIHVubGlzdChzdHJzcGxpdChhZ2V2YWxzLCAiLyIpKSAKICBhZ2VzICAgIDwtIG91dHB1dFssIDE2XQogIGFnZXMgICAgPC0gdW5saXN0KHN0cnNwbGl0KGFnZXMsICIvIikpCiAgYWdlcyAgICA8LSBjYmluZCgxOmxlbmd0aChhZ2V2YWxzKSwgYWdldmFscywgYWdlcykKICBhZ2UgICAgIDwtIHVuaXF1ZShhZ2VzWywgMl0pCgogIGF5ZWFycyAgPC0gc3Ryc3BsaXQob3V0cHV0WywgMTVdLCAiLyIpIAogIGFsZW5ndGhzPC0gbGVuZ3RocyhheWVhcnMpIAogIGF5ZWFycyAgPC0gcmVwKDE6bnJvdyhvdXRwdXQpLCBhbGVuZ3RocykKCiAgYWdlcyA8LSBjYmluZChheWVhcnMsIGFnZXMpCgogICNhZ2U9YWdlW2MoNCwgNSldICMganVzdCBsb29rIGF0IGFkdWx0czsgdG9nZ2xlIG9uIGFuZCBvZmYKICAKICBjb2xvcnMgPC0gYygib3JhbmdlIiwgImRvZGdlcmJsdWUiLCAiYmxhY2siLCAiYmx1ZSIsICJwdXJwbGUiKQogIHBsb3QoLTEwLCAtMTAsIHhsaW09YygwLCBucm93KG91dHB1dCkpLCB5bGltID0gYygwLCBtYXgoYXMubnVtZXJpYyhhZ2VzWywgNF0pKSksIHhsYWI9InllYXIiLCB5bGFiPSJjb3VudCIpCiAgZm9yKGEgaW4gYWdlKXsKICAgIGFnZW4gPC0gYWdlc1t3aGljaChhZ2VzWywgM10gPT0gYSksIF0KICAgIGxpbmVzKGFzLm51bWVyaWMoYWdlblssIDFdKSwgYXMubnVtZXJpYyhhZ2VuWywgNF0pLCBjb2w9Y29sb3JzW2FzLm51bWVyaWMoYSkrMV0sIGx3ZD0yKQoKICB9ICAKCiAgdGFpbChvdXRwdXQpCiAgZGV2Lm9mZigpCiAgYmVlcCgzKQoKICAjfQogIAAAAAAAAAAAcB4AAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACJFAAAAAAAAIkUAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					40,
+					1,
+					"left_delete",
+					null,
+					"AQAAABMGAAAAAAAAEwYAAAAAAAABAAAAMg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAUBgAAAAAAABQGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAABMGAAAAAAAAFAYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAATBgAAAAAAABMGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					52,
+					1,
+					"insert",
+					{
+						"characters": "i"
+					},
+					"AQAAALoDAAAAAAAAuwMAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC6AwAAAAAAALoDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAALsDAAAAAAAAvAMAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC7AwAAAAAAALsDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					58,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAsEAAAAAAAACwQAAAAAAAABAAAAIw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAMBAAAAAAAAAwEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					61,
+					1,
+					"right_delete",
+					null,
+					"AQAAALoDAAAAAAAAugMAAAAAAAABAAAAaQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC6AwAAAAAAALoDAAAAAAAAAAAAAAAANkA"
+				]
+			]
+		},
+		{
+			"file": "source/Semelparity.R",
+			"settings":
+			{
+				"buffer_size": 300,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/AdultMortality.R",
+			"settings":
+			{
+				"buffer_size": 1377,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPQCAAAAAAAA9AIAAAAAAAABAAAANw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD1AgAAAAAAAPUCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "9"
+					},
+					"AQAAAPQCAAAAAAAA9QIAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD0AgAAAAAAAPQCAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "source/Parameters.R",
+			"settings":
+			{
+				"buffer_size": 6594,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI8GAAAAAAAAjwYAAAAAAAABAAAANQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACQBgAAAAAAAJAGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI4GAAAAAAAAjgYAAAAAAAABAAAAMg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACPBgAAAAAAAI8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "5"
+					},
+					"AQAAAI4GAAAAAAAAjwYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACOBgAAAAAAAI4GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "0"
+					},
+					"AQAAAI8GAAAAAAAAkAYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACPBgAAAAAAAI8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI8GAAAAAAAAjwYAAAAAAAABAAAAMA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACQBgAAAAAAAJAGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					21,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI4GAAAAAAAAjgYAAAAAAAABAAAANQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACPBgAAAAAAAI8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAI4GAAAAAAAAjwYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACOBgAAAAAAAI4GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "0"
+					},
+					"AQAAAI8GAAAAAAAAkAYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACPBgAAAAAAAI8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					28,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI8GAAAAAAAAjwYAAAAAAAABAAAAMA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACQBgAAAAAAAJAGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI4GAAAAAAAAjgYAAAAAAAABAAAAMg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACPBgAAAAAAAI8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAAI4GAAAAAAAAjwYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACOBgAAAAAAAI4GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "0"
+					},
+					"AQAAAI8GAAAAAAAAkAYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACPBgAAAAAAAI8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					41,
+					1,
+					"left_delete",
+					null,
+					"AQAAANQBAAAAAAAA1AEAAAAAAAABAAAANQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADVAQAAAAAAANUBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAANQBAAAAAAAA1QEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADUAQAAAAAAANQBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "0"
+					},
+					"AQAAANUBAAAAAAAA1gEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADVAQAAAAAAANUBAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
+	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -91,6 +362,12 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/genetic_rescue",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/genetic_rescue/output",
+		"/C/Users/fishf/Dropbox/manuscripts/rescue/genetic_rescue/source"
+	],
 	"file_history":
 	[
 		"/C/Users/fishf/Dropbox/manuscripts/rescue/genetic_rescue/source/AdultMortality.R",
@@ -235,6 +512,168 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ToDo.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								797,
+								797
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 483.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/RunModel.R",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1947,
+								1947
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 759.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/Semelparity.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/AdultMortality.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/Parameters.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
 	"incremental_find":
 	{
 		"height": 32.0
@@ -242,6 +681,28 @@
 	"input":
 	{
 		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
 	},
 	"menu_visible": true,
 	"output.Terminus":
@@ -261,6 +722,7 @@
 		"height": 222.0
 	},
 	"pinned_build_system": "",
+	"project": "genetic_rescue.sublime-project",
 	"replace":
 	{
 		"height": 60.0
@@ -293,6 +755,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},

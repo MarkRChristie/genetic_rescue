@@ -7,7 +7,7 @@ parameters <- list()          # all parameters must be added to this list (see c
 ## Demographic parameters =======================#
 pops                      <- 1         # total n. pops
 k.adults                  <- 500       # 500
-k.juvenile.multiplier     <- 5         # how many times more juveniles should there be than adults
+k.juvenile.multiplier     <- 10         # how many times more juveniles should there be than adults
 k.juveniles 	          <- k.adults*k.juvenile.multiplier   # set as proportion of adults (easier to adjust population sizes to ne)
 k.adults.final            <- NA
 juvenile.survival.var 	  <- 0.1       # default  = 100 , now set as proportion of k.juveniles 
@@ -28,7 +28,7 @@ n.years              <- ne.change.stop   # total number of years in the model
 maximum.juvenile.age   <- 2     # maximim age for a juvenile lamprey; used in creating juveniles (Juveniles.R) 
 maximum.adult.age      <- 4     # maximum age for adult     
 semelparity            <- 1     # 1 = semelparous; 2 (or anything but 1) = iteroparous ; if on, adults cannot be donated via rescue
-breed.next.year        <- 0.25  # when semelparity is on, what percentage of new "adults" should remain juveniles for 1 extra year to create 4 year old coho
+breed.next.year        <- 0.30  # when semelparity is on, what percentage of new "adults" should remain juveniles for 1 extra year to create 4 year old coho
 
 # Growth parameters
 ##y   <- L * (1-e^(-K * (t-tzero)))

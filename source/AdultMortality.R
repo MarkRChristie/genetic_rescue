@@ -13,7 +13,7 @@ AdultMortality <- function(pops, parameters) {
   if(keep <= 0) {keep = length(adults[, 1])} 
   
   if(inbreeding.fitness.cost == 1){
-    keep <- keep*(1-(inbreed_F*7)) # INBREEDING PENALTY!; *8 is a good, strong default; currently linear
+    keep <- keep*(1-(inbreed_F*9)) # INBREEDING PENALTY!; *8 is a good, strong default; currently linear
   }
   
   
