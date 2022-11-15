@@ -7,8 +7,8 @@ parameters <- list()          # all parameters must be added to this list (see c
 ## Demographic parameters =======================#
 pops                      <- 1         # total n. pops
 k.adults                  <- 500       # 500
-k.juvenile.multiplier     <- 10         # how many times more juveniles should there be than adults
-k.juveniles 	          <- k.adults*k.juvenile.multiplier   # set as proportion of adults (easier to adjust population sizes to ne)
+k.juvenile.multiplier     <- 3         # how many times more juveniles should there be than adults
+k.juveniles 	            <- k.adults*k.juvenile.multiplier   # set as proportion of adults (easier to adjust population sizes to ne)
 k.adults.final            <- NA
 juvenile.survival.var 	  <- 0.1       # default  = 100 , now set as proportion of k.juveniles 
 adult.survival.var        <- 0.1       # used to be 80, now set as proportion of k.adults
@@ -17,17 +17,16 @@ adult.survival.var        <- 0.1       # used to be 80, now set as proportion of
 
 #Timing parameters (modified from donor populations; no selection for genetic rescue model, change for ER)
 selection.start.year <- 10    # year that selection starts
-selection.end.year   <- 200   # 150 is default when 50 is selection.start.year
-ne.change.start      <- 50    # selection.end.year + 1
-ne.change.stop       <- ne.change.start + 150
+ne.change.start      <- 100    # selection.end.year + 1
+ne.change.stop       <- ne.change.start + 200
 n.years              <- ne.change.stop   # total number of years in the model
-
+selection.end.year   <- n.years   # 150 is default when 50 is selection.start.year
 
   
 # life history parameters 
-maximum.juvenile.age   <- 2     # maximim age for a juvenile lamprey; used in creating juveniles (Juveniles.R) 
-maximum.adult.age      <- 4     # maximum age for adult     
-semelparity            <- 1     # 1 = semelparous; 2 (or anything but 1) = iteroparous ; if on, adults cannot be donated via rescue
+maximum.juvenile.age   <- 1     # maximim age for a juvenile lamprey; used in creating juveniles (Juveniles.R) 
+maximum.adult.age      <- 5     # maximum age for adult     
+semelparity            <- 0    # 1 = semelparous; 2 (or anything but 1) = iteroparous ; if on, adults cannot be donated via rescue
 breed.next.year        <- 0.30  # when semelparity is on, what percentage of new "adults" should remain juveniles for 1 extra year to create 4 year old coho
 
 # Growth parameters

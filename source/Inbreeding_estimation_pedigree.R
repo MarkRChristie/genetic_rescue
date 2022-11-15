@@ -2,7 +2,7 @@ Inbreeding_estimation_pedigree <- function(parameters, n) {
   n.years <- n
   
   ped <- read.table("../output/pedigree.txt", header=FALSE, sep="\t", na.strings="?", dec=".", strip.white=TRUE)
-  ped <- ped[which(ped[, 2] >= (n.years-20)), ] # calculate F for last 20 years only!!!
+  ped <- ped[which(ped[, 2] >= (n.years-50)), ] # calculate F for last 20 years only!!!
    
   #head(ped)
   #tail(ped)

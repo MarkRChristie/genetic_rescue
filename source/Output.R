@@ -73,7 +73,7 @@ Output <- function(pops, n, n.adult, output) {
   
   if(n==1) {ne1=ne2=ne3=ne4=0} # nes for first generation for formatting
   #output.new <- data.frame(cbind(n, n.juveniles, nadult.1, nadult.2, phenotypes, ho, fis, ne1, ne2, ne3, ne4, inbreed, het2, F_inbreeding, agevals, ages))
-  output.new <- data.frame(n, n.juveniles, nadult.1, nadult.2, phenotypes, ho, fis, ne1, ne2, ne3, ne4, inbreed, het2, F_inbreeding, agevals, ages)
+  output.new <- data.frame(n, n.juveniles, nadult.1, nadult.2, phenotypes, ho, fis, ne1, ne2, ne3, ne4, inbreed, het2, F_inbreeding, agevals, ages, k, vk)
   output     <- rbind(output, output.new)
   return(output)
 }

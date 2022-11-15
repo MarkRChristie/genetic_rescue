@@ -34,7 +34,7 @@
   outdir         <- paste(base.directory,"/output/",sep="")  # directory to save model output  
   source(paste(base.directory, "/source/FunctionSourcer.R", sep = '')) #loads packages, sources functions, and sets source directory
   data.frame(unlist(parameters)) # show all parameters
-  parameters[["k.adults.final"]] <- 100  # final population size
+  parameters[["k.adults.final"]] <- 30  # final population size
   parameters[["optima"]]         <- 0  # phenotypic optimum for local adaptation
   donor.pop <- read.table("../pops/out_300_0_pops.txt", header=TRUE, sep="\t", na.strings="?", dec=".", strip.white=TRUE)
   #initialize populations: create juveniles, adults
@@ -47,8 +47,13 @@
   optima         <- parameters[["optima"]] 
   
   unlink("../output/pedigree.txt")  # make sure that pedigree file is deleted!
-
-  for(n in 1:parameters[["n.years"]]){
+  
+  # temporarily speed up sims by using same long burnin (loading it here)
+  pops   <- read.table("../output/out_100_0_pops_year_98.txt", header=TRUE, sep="\t", na.strings="?", dec=".", strip.white=TRUE)
+  output <- read.table("../output/out_100_0_output_year_98.txt", header=TRUE, sep="\t", na.strings="?", dec=".", strip.white=TRUE)
+  #for(n in 1:parameters[["n.years"]]){
+   for(n in 99:parameters[["n.years"]]){
+  #for(n in 1:98){
 
     pops[, 3] <- pops[, 3] + 1 # increment ages by 1
     # if(length(pops) <= one.individual) {break}
@@ -115,22 +120,24 @@
     
   }
 
-  pdf(file = "recipient_with_rescue.pdf", width = 6, height = 5) 
+  #pdf(file = "recipient_with_rescue.pdf", width = 6, height = 5) 
   #par(mfrow=c(3,1), oma = c(0, 2, 0, 2))
-  plot(output[, 1], output[, 2], pch = 21, bg = "blue", cex = 2, main = "juveniles", ylim = c(0, max(output[, 2]) + 20)) # plot adults
+  plot(output[, 1], output[, 2], pch = 21, bg = "blue", cex = 2, main = "juveniles", ylim = c(0, max(output[, 2]) + 20)) # plot juveniles
   plot(output[, 1], output[, 4], pch = 21, bg = "blue", cex = 2, main = "adults", ylim = c(0, max(output[, 3]) + 200))   # plot adults
-  plot(output[, 1], output[, 5], pch = 21, bg = "blue", cex = 2, main = "temperature tolerance") # plot temp tolerance
-  plot(output[, 1], output[, 6], pch = 21, bg = "blue", cex = 2, main = "Ho", ylim = c(0, max(output[, 6]) + 0.5)) # plot juveniles
-  plot(output[, 1], output[, 13], pch = 21, bg = "blue", cex = 2, main = "Ho2", ylim = c(0, max(output[, 13]) + 0.5)) # plot juveniles
-  plot(output[, 1], output[, 7], pch = 21, bg = "blue", cex = 2, main = "Fis", ylim = c(min(output[, 7]) - 0.5, max(output[, 7]) + 0.5)) # plot juveniles
-  plot(output[, 1], output[, 8], pch = 21, bg = "blue", cex = 2, main = "Ne1", ylim = c(0, max(output[, 8]) + 5))   # plot juveniles
-  plot(output[, 1], output[, 9], pch = 21, bg = "blue", cex = 2, main = "Ne1", ylim = c(0, max(output[, 9]) + 5))   # plot juveniles
-  plot(output[, 1], output[, 10], pch = 21, bg = "blue", cex = 2, main = "Ne1", ylim = c(0, max(output[, 10]) + 5)) # plot juveniles
-  plot(output[-c(1,2,3), 1], output[-c(1,2,3), 11], pch = 21, bg = "blue", cex = 2, main = "Ne1")                   # plot juveniles
-  plot(output[, 1], output[, 12], pch = 21, bg = "blue", cex = 2, main = "inbreed")  
-  plot(output[, 1], output[, 14], pch = 21, bg = "blue", cex = 2, main = "True F")#
-  plot(output[-c(1:50), 14], output[-c(1:50), 3], pch = 21, bg = "green", cex = 2, main = "F effects", xlab="F", ylab="N adults") # F vs n adults
-  plot(output[, 1], output[, 3], pch = 21, bg = "blue", cex = 2, main = "adults", ylim = c(0,60))   # plot adults
+  plot(output[, 1], output[, 5], pch = 21, bg = "blue", cex = 2, main = "temperature tolerance")                         # plot temp tolerance
+  plot(output[, 1], output[, 6], pch = 21, bg = "blue", cex = 2, main = "Ho", ylim = c(0, max(output[, 6]) + 0.05))      # plot Ho
+  plot(output[, 1], output[, 13], pch = 21, bg = "blue", cex = 2, main = "Ho2", ylim = c(0, max(output[, 13]) + 0.05))    # plot Ho
+  plot(output[, 1], output[, 7], pch = 21, bg = "blue", cex = 2, main = "Fis", ylim = c(min(output[, 7]) - 0.5, max(output[, 7]) + 0.5)) # plot Ho
+  plot(output[, 1], output[, 8], pch = 21, bg = "blue", cex = 2, main = "Ne1", ylim = c(0, max(output[, 8]) + 5))        # plot Ne1
+  plot(output[, 1], output[, 9], pch = 21, bg = "blue", cex = 2, main = "Ne1", ylim = c(0, max(output[, 9]) + 5))        # plot Ne2
+  plot(output[, 1], output[, 10], pch = 21, bg = "blue", cex = 2, main = "Ne1", ylim = c(0, max(output[, 10]) + 5))      # plot Ne3
+  plot(output[-c(1,2,3), 1], output[-c(1,2,3), 11], pch = 21, bg = "blue", cex = 2, main = "Ne1")                        # plot Ne4
+  plot(output[, 1], output[, 12], pch = 21, bg = "blue", cex = 2, main = "inbreed")                                      # plot genotype inbreeding  
+  plot(output[, 1], output[, 14], pch = 21, bg = "blue", cex = 2, main = "True F")                                       # plot pedigree inbreeding
+  plot(output[-c(1:100), 14], output[-c(1:100), 3], pch = 21, bg = "green", cex = 2, main = "F effects", xlab="F", ylab="N adults")      # F vs n adults
+  plot(output[, 1], output[, 3], pch = 21, bg = "blue", cex = 2, main = "adults", ylim = c(0,60))                        # plot adults zoomed in
+  plot(output[, 1], output[, 17], pch = 21, bg = "blue", cex = 2, main = "mean family size")                             # plot mean family size
+  plot(output[, 1], output[, 18], pch = 21, bg = "blue", cex = 2, main = "var family size")                              # plot variance in family size 
 
   # create plot of ages through time
   agevals <- output[, 15]
@@ -156,9 +163,16 @@
 
   }  
 
+  plot(-10, -10, xlim=c(100, nrow(output)), ylim = c(0, 200), xlab="year", ylab="count")
+  for(a in age){
+    agen <- ages[which(ages[, 3] == a), ]
+    lines(as.numeric(agen[, 1]), as.numeric(agen[, 4]), col=colors[as.numeric(a)+1], lwd=2)
+    
+  }  
+  
   tail(output)
-  dev.off()
-  beep(3)
+ # dev.off()
+  beep(2)
 
   #}
   

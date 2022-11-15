@@ -60,8 +60,9 @@ Reproduction <- function(n, pops, parameters) {
   #hist(rnbinom(1000, 1, mu = 20)) # mu set equal to mean (here set equal to n.egg)
   # currently off
   #n.eggs <- rnbinom(length(pairs[, 1]), 1, mu = n.egg)
-  #none   <- which(n.eggs == 0) # ensure all pairs have at least one egg
-  #n.eggs[none] <- 1
+  n.eggs <- rnbinom(length(pairs[, 1]), 1, mu = 20)
+  none   <- which(n.eggs == 0) # ensure all pairs have at least one egg
+  n.eggs[none] <- 1
   
   # Below creates offspring  
   POPS  <- NULL
@@ -69,7 +70,7 @@ Reproduction <- function(n, pops, parameters) {
     dims    <- ncol(adults)-(n.neutral.loci*2) # seprate out adaptive loci first
     gtype1  <- pairs[n, 1:dims]
     gtype2  <- pairs[n, ((ncol(pops)+1):(ncol(pops)+dims))]
-    #n.egg   <- n.eggs[n]
+    n.egg   <- n.eggs[n]
     #=======================================#
     # add in mendelian inheritance here!!!
     #=======================================#
