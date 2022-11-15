@@ -4,6 +4,7 @@ paramters that work well:
 Nadults=30, semelparity off, max.age=5, max.juvenile.age=1
 
 
+1. var in RS added to reproduction; add it t parameters
 
 
 1. add in semelparity as a toggle; track population dynamics

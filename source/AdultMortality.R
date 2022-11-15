@@ -17,7 +17,7 @@ AdultMortality <- function(pops, parameters) {
     #Fin  <- seq(0, 0.03, 0.001)
     #keep <- keep*(1-(Fin*4))
     #plot(Fin, keep)
-    keep <- keep*(1-(inbreed_F*2)) # INBREEDING PENALTY!; *8 is a good, strong default; currently linear
+    keep <- keep*(1-(inbreed_F*4)) # INBREEDING PENALTY!; *8 is a good, strong default; currently linear
   }
   
   

@@ -60,7 +60,7 @@ Reproduction <- function(n, pops, parameters) {
   #hist(rnbinom(1000, 1, mu = 20)) # mu set equal to mean (here set equal to n.egg)
   # currently off
   #n.eggs <- rnbinom(length(pairs[, 1]), 1, mu = n.egg)
-  n.eggs <- rnbinom(length(pairs[, 1]), 1, mu = 20)
+  n.eggs <- rnbinom(length(pairs[, 1]), n.egg, mu = 20)
   none   <- which(n.eggs == 0) # ensure all pairs have at least one egg
   n.eggs[none] <- 1
   
