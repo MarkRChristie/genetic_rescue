@@ -7,18 +7,18 @@ parameters <- list()          # all parameters must be added to this list (see c
 ## Demographic and life history parameters =======================#
 pops                      <- 1         # total n. pops
 k.adults                  <- 500       # 500
-k.juvenile.multiplier     <- 5        # how many times more juveniles should there be than adults
+k.juvenile.multiplier     <- 10        # how many times more juveniles should there be than adults
 k.juveniles 	            <- k.adults*k.juvenile.multiplier   # set as proportion of adults (easier to adjust population sizes to ne)
 k.adults.final            <- NA
 juvenile.survival.var 	  <- 0.1       # default  = 100 , now set as proportion of k.juveniles 
 adult.survival.var        <- 0.1       # used to be 80, now set as proportion of k.adults
 
 # life history parameters 
-maximum.juvenile.age   <- 1     # maximim age for a juvenile lamprey; used in creating juveniles (Juveniles.R) 
-maximum.adult.age      <- 5     # maximum age for adult     
-semelparity            <- 0    # 1 = semelparous; 2 (or anything but 1) = iteroparous ; if on, adults cannot be donated via rescue
+maximum.juvenile.age   <- 2     # maximim age for a juvenile lamprey; used in creating juveniles (Juveniles.R) 
+maximum.adult.age      <- 4     # maximum age for adult     
+semelparity            <- 0     # 1 = semelparous; 2 (or anything but 1) = iteroparous ; if on, adults cannot be donated via rescue
 breed.next.year        <- 0.30  # when semelparity is on, what percentage of new "adults" should remain juveniles for 1 extra year to create 4 year old coho
-k.juv.year             <- cbind(0.75, 0.25)       # must some to one and must have as many elements as all juvenile year classes; ordered youngest to oldest
+k.juv.year             <- cbind(0.6, 0.3, 0.1) # must sum to one and must have as many elements as all juvenile year classes; ordered youngest to oldest
 
 
 

@@ -51,7 +51,7 @@
   # temporarily speed up sims by using same long burnin (loading it here)
   pops   <- read.table("../output/out_100_0_pops_year_98.txt", header=TRUE, sep="\t", na.strings="?", dec=".", strip.white=TRUE)
   output <- read.table("../output/out_100_0_output_year_98.txt", header=TRUE, sep="\t", na.strings="?", dec=".", strip.white=TRUE)
-  #for(n in 1:parameters[["n.years"]]){
+#  for(n in 1:parameters[["n.years"]]){
    for(n in 99:parameters[["n.years"]]){
   #for(n in 1:98){
 

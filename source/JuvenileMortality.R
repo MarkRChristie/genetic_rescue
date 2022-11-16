@@ -14,8 +14,8 @@ JuvenileMortality <- function(pops, parameters) {
     age   <- juvkey[k]
     juvs  <- juveniles[juveniles[, 3] == age, ]
     keep  <- kyear*k.juveniles  
-    ###STOPPED HERE!
-    keep  <- round(rnorm(1, keep, juvenile.survival.var*keep))
+    
+#   #keep  <- round(rnorm(1, keep, juvenile.survival.var*keep))
     if(keep <= 0) {keep = length(juvs[, 1])} 
     
     if(keep < length(juvs[, 1])){ 
@@ -25,7 +25,7 @@ JuvenileMortality <- function(pops, parameters) {
       pop1    <- sample(1:length(juvs[, 1]), keep, replace=FALSE) # will cause a crash if not enough juveniles!
       keepers <- juvs[pop1, ]
       JUVS    <- rbind(JUVS, keepers)
-      } else {pops <- rbind(JUVS, juvs)}
+      } else {JUVS <- rbind(JUVS, juvs)}
     }
   
 
